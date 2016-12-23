@@ -154,6 +154,7 @@ require(["jquery", "person"], function($, person){
 其中, 回调函数的两个参数**($和person)**分别为`jquery`和`person`两个模块的模块对象.
 
 代码运行效果如下:
+
 ![image](https://github.com/lizujia/requirejs_demo/blob/master/img/md/2.png)
 
 
@@ -210,6 +211,7 @@ require(["jquery"], function($){
 
 这样就可以复用main.js, 将不同模块的功能从主模块中分离出去, 并且利于扩展.
 代码运行效果如下:
+
 ![image](https://github.com/lizujia/requirejs_demo/blob/master/img/md/3.png)
 
 
@@ -270,6 +272,7 @@ require(["jquery", "account"], function($, account){
 ```
 
 运行效果如下图:
+
 ![image](https://github.com/lizujia/requirejs_demo/blob/master/img/md/4.png)
 
 
