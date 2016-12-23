@@ -16,4 +16,4 @@ require(["jquery", "person", "mynoamd", "mymulti"], function($, person, _, multi
 });
 
 
-alert($().jquery);
+alert(jQuery().jquery);
